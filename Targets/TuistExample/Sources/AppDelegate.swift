@@ -1,4 +1,5 @@
 import UIKit
+import TuistExample
 import TuistExampleKit
 import TuistExampleUI
 
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         viewController.view.backgroundColor = .white
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
+        
         TuistExampleKit.hello()
         TuistExampleUI.hello()
 
